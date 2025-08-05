@@ -1,4 +1,4 @@
-# 📗 Algerudi Pebblewhisk’s Grand Guide to GnoScript™ and GnoClassical™
+ # 📗 Algerudi Pebblewhisk’s Grand Guide to GnoScript™ and GnoClassical™
 
 Whether you're a humble boiler fixer or a blueprint architect of wild whirlygigs, this guide will walk you through **both the basic scripting style** of GnoScript and the **object-oriented wizardry** of GnoClassical™.
 
@@ -98,7 +98,7 @@ tool refuel with amount
 ### 🔹 Inheritance (Optional Madness)
 
 ```gno
-blueprint Teapot extends Kettle
+blueprint Teapot implements Kettle
   tool whistle
     say "Fweeeeeeee!"
 ```
