@@ -68,10 +68,10 @@ blueprint Kettle
 
   tool boil
     say "Boiling..."
-    set self.heat to 100
+    set me.heat to 100
 
   tool check
-    maybe self.heat == 100
+    maybe me.heat == 100
       say "Ready for tea!"
     otherwise
       say "Still warming..."
@@ -92,7 +92,7 @@ my_kettle.check()
 
 ```gno
 tool refuel with amount
-  set self.fuel to self.fuel + amount
+  set me.fuel to me.fuel + amount
 ```
 
 ### 🔹 Inheritance (Optional Madness)
@@ -133,10 +133,10 @@ blueprint Rocket
   set cog fuel to 0
 
   tool refuel with amount
-    set self.fuel to self.fuel + amount
+    set me.fuel to me.fuel + amount
 
   tool launch
-    maybe self.fuel >= 100
+    maybe me.fuel >= 100
       say "Launching!"
     otherwise
       say "Not enough fuel."
