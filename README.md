@@ -12,7 +12,7 @@ Let’s begin—mind the sparks!
 | ---------------- | ---------------------- | ----------------------- |
 | Variable         | `set`                  | `set cog`               |
 | Function         | `thing`                | `tool`                  |
-| Conditional      | `maybe` / `otherwise`  | Same                    |
+| Conditional      | `maybe` / 'unless' / `otherwise`  | Same                    |
 | Loop             | `again`                | Same                    |
 | Boolean Values   | `spinning` / `stopped` | Same                    |
 | Object           | —                      | `widget`                |
@@ -35,6 +35,8 @@ say "Power level is " + power
 ```gno
 maybe power > 5
   say "That's a spicy spark!"
+unless power > 10
+  say "That's a lot of power!"
 otherwise
   say "Needs more juice."
 ```
