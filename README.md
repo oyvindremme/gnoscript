@@ -12,7 +12,7 @@ Let’s begin—mind the sparks!
 | ---------------- | ---------------------- | ----------------------- |
 | Variable         | `set`                  | `set cog`               |
 | Function         | `thing`                | `tool`                  |
-| Conditional      | `maybe` / 'unless' / `otherwise`  | Same                    |
+| Conditional      | `maybe` / `unless` / `otherwise`  | Same                    |
 | Loop             | `again`                | Same                    |
 | Boolean Values   | `spinning` / `stopped` | Same                    |
 | Object           | —                      | `widget`                |
