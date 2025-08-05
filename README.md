@@ -1,6 +1,6 @@
 # 📗 Algerudi Pebblewhisk’s Grand Guide to GnoScript™ and GnoClassical™
 
-Ah, welcome back Whether you're a humble boiler fixer or a blueprint architect of wild whirlygigs, this guide will walk you through **both the basic scripting style** of GnoScript and the **object-oriented wizardry** of GnoClassical™.
+Whether you're a humble boiler fixer or a blueprint architect of wild whirlygigs, this guide will walk you through **both the basic scripting style** of GnoScript and the **object-oriented wizardry** of GnoClassical™.
 
 Let’s begin—mind the sparks!
 
